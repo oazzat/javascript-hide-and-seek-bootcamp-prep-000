@@ -16,17 +16,6 @@ function increaseRankBy(n){
   }
 }
 
-/*
-function deepestChild(){
-  var gnode = document.querySelector("#grand-node")
-  var deepest 
-  for(var i=0; i<gnode.length; i++){
-    deepest = gnode[i]
-  }
-  return deepest
-}
-*/
-
 function deepestChild() {
   var grandNode = document.querySelector('#grand-node');
   var deepestNode = grandNode.children[0];
@@ -35,9 +24,3 @@ function deepestChild() {
   }
   return deepestNode;
 }
-
-//var test = getFirstSelector("unranked-list")
-//console.log(test)
-
-//var sel = document.getElementById("app").querySelector(selector)
-//console.log(sel)
